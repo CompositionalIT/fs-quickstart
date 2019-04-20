@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ionide.ionide-fsharp",
+        "ms-vscode.csharp"
+    ],
+    "unwantedRecommendations": []
+}
