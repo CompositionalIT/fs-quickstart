@@ -123,3 +123,14 @@ It should look like this:
 ```fsharp
 add 1 10 |> add 20 |> multiplyBy // etc.
 ```
+
+## Creating a console application
+Lastly, we'll create and run a simple console application using standard .NET CLI tooling.
+
+1. Open up a command prompt / shell (or if in VS Code, the Terminal prompt)
+2. Enter the command `dotnet new console -lang F# -o fsdemo`.
+3. enter the fsdemo directory that has been created.
+4. Run the application with `dotnet run`. Observe "Hello World fomr F#!" is printed to the console.
+5. Enter the command `code .` to open up Code with this application (if not already in Code)
+6. Observe you have a single `.fs` file for your application and an `.fsproj` file for the project
+contents, similar to other .NET languages.
